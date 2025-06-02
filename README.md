@@ -37,14 +37,9 @@ This project sets up an ETL pipeline that ingests CSV healthcare data into Mongo
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/healthcare-etl-mongo.git
-cd healthcare-etl-mongo
-```
 
-### 2. Configure Environment Variables
+### 1. Configure Environment Variables
 
 Create a `.env` file:
 
@@ -54,7 +49,7 @@ MONGO_INITDB_ROOT_PASSWORD=password
 MONGO_HOST=mongo
 ```
 
-### 3. Start the Services
+### 2. Start the Services
 
 ```bash
 docker-compose up -d
